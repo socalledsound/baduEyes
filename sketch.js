@@ -1,6 +1,6 @@
 // PVector p0 = new PVector();
 // PVector p1 = new PVector();
-
+let count  = 0;
 let p0 = new p5.Vector();
 let p1= new p5.Vector();
 let p2 = new p5.Vector();
@@ -30,9 +30,9 @@ tmin = -PI;
 tmax = PI; 
 t=tmin;
 
-console.log("hi");
+// console.log("hi");
   createCanvas(1000, 1000);
-  //frameRate(20);
+  frameRate(15);
     background(120,87,120);
 
 
@@ -75,13 +75,26 @@ function draw() {
     p0.set(p1);
     p2.set(p3);
     	
-console.log(t);
+// console.log(t);
 	if (t > 6 || t < -6) {
 		mult*=-1;
 	}
 
     t += tdif*mult;
     
+// if (count > 5 && count < 10) {
+// // var canvas = document.querySelector('canvas');
+// // var dataUrl = canvas.toDataURL();  
+// // console.log(dataUrl);
+
+// // window.open(dataUrl, "toDataURL() image", "width=1000, height=1000");
+
+// var imgOut = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+// window.location.href=imgOut;
+// }
+// console.log(count);
+// count++;
+
 }
 
  
