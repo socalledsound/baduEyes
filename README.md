@@ -1,3 +1,3 @@
 #ellipse fountain 
 https://socalledsound.github.io/baduEyes/
-![badu-eyes](badu-eyes.jpeg)
+![badu-eyes](baduEyes.jpg)
